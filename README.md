@@ -10,6 +10,6 @@ It's split into three main parts:
 - **data**: contains data which the analyse scripts needs. This contains:
   - **data.zip**: a zip containing the output of a previous run of the query scripts, so you can test out the analyse scripts without needing to fetch data
   - **organizations.json**: a JSON file that maps organizations to people, so we can know which organizations can claim credit for which PRs/reviews
-- **analyse.js**: contains scripts to analyse the data:
-  - **analyse-prs.json**: given organizations.json and the output of query-prs.js, figures out the number of PRs that each organization was responsible for.
-  - **analyse-reviews.json**: given organizations.json and the output of query-reviews.js, figures out the number of reviews that each organization was responsible for.
+- **analyse**: contains scripts to analyse the data:
+  - **analyse-prs.js**: given organizations.json and the output of query-prs.js, figures out the number of PRs that each organization was responsible for.
+  - **analyse-reviews.js**: given organizations.json and the output of query-reviews.js, figures out the number of reviews that each organization was responsible for.
