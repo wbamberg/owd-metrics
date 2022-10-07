@@ -1,0 +1,10 @@
+{
+  "name": "wbamberg/owd-metrics",
+  "version": "0.0.1",
+  "repository": "https://github.com/wbamberg/owd-metrics/",
+  "license": "MPL-2.0",
+  "author": "Open Web Docs",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
